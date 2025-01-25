@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Energy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #1abc9c;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?solar,energy') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 2rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .feature {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sustainable Energy</h1>
+        <p>The Future of Clean and Renewable Power</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Powering the World with Renewable Energy</h2>
+    </section>
+    <section id="about">
+        <h2>About Sustainable Energy</h2>
+        <p>Sustainable energy is the key to ensuring a healthy planet for future generations. It encompasses sources like solar, wind, and hydro power, which are clean, renewable, and efficient.</p>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/1307/1307079.png" alt="Solar Power">
+            <h3>Solar Power</h3>
+            <p>Harnessing the power of the sun to create clean energy.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/1063/1063188.png" alt="Wind Energy">
+            <h3>Wind Energy</h3>
+            <p>Utilizing wind turbines to generate electricity efficiently.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/1906/1906067.png" alt="Hydro Power">
+            <h3>Hydro Power</h3>
+            <p>Using water flow to produce sustainable energy.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Sustainable Energy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
